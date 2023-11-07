@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                 type = "text/plain"
             }
 
+            startActivity(Intent.createChooser(sendIntent, null))
 
         }
     }
